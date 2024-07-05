@@ -1,5 +1,5 @@
 var createCounter = function(init) {
-    inicial=init
+    const inicial=init
     function increment(){
         return ++init;
     }
